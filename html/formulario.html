@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a href="../index.html"><h3>VOLVER ATRAS</h3></a>
+    </div>
+    <form name="formulario"method="post" action="/send/">
+        Ingrese su nombre: <input type="text" name="username" autocomplete="off" minlength="3" maxlength="41" required>
+        <br>
+        Ingrese su apellido: <input type="text" name="username" autocomplete="off" required>
+        <br>
+        Ingrese su email: <input type="email" name="username" autocomplete="off" required>
+        <br>
+        Ingrese una contraseña: <input type="password" name="password" autocomplete="off" required>
+        <br>
+        Ingrese su fecha de nacimiento: <input type="date" name="date" autocomplete="off">
+        <br>
+        Ingrese su telefono: <input type="tel" name="number" placeholder="+XX XXX XXXXXX" autocomplete="off">
+        <br>
+        Escoga una opcion: <input type="radio" name="genero" value="Mujer">Mujer <input type="radio" name="genero" value="Hombre">Hombre
+        <br>
+        Escoga una opcion: <input type="checkbox" name="edad" value="MayorDeEdad">Mayor de edad <input type="checkbox" name="edad" value="MenorDeEdad">Menor de edad
+        <br>
+        Envie una imagen: <input type="file" name="imagen" id="">
+        <br>
+        Que tal esta la pagina: <input type="range" name="opcion" id="" min="1" max="5">
+        <br>
+        Busqueda <input type="search" name="busqueda"> <input type="submit" value="Buscar">
+        <br>
+        Ingrese la hora: <input type="time" disabled>
+        <br>
+        Escoga un color: <input type="color">
+        <br>
+        Ingrese url:<input type="url">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="submit" value="ENVIAR" readonly>
+</body>
+</html>
