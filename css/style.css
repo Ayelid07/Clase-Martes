@@ -1,0 +1,57 @@
+/*importar tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*selector de etiqueta*/
+a{
+    margin-left: 30px;
+    color: orange;
+}
+/* selector por id */
+#option_one, #option_three, #option_five {
+    color: blueviolet;
+}
+#option_two ,#option_four {
+    color: crimson;
+}
+/* selector por clases */
+.group_options {
+    background-color: cadetblue;
+    margin-top: 5px;
+}
+.group_class {
+    padding: 10px;
+}
+/* selector pseudoclase */
+.group_options:hover {
+    background-color: springgreen;
+    color: black;
+}
+/* SELECTOR POR ATRIBUTO */
+[disabled] {
+    background-color: brown;
+}
+/* selectores desendentes */
+#papa {
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    box-shadow: 0px 5px;
+}
+/* selector adyacente */
+#papa .hermanos + .hermanos{
+    color: aqua;
+}
+/* selector desendente */
+#papa a {
+    color: blue;
+}
+/* selector hijo */
+#papa > #etiqueta > a {
+    color: tomato;
+}
